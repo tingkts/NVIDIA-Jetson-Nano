@@ -1,6 +1,6 @@
-#  Remote Debugging
+##  Remote Debugging
 
-## PyCharm - Python
+### PyCharm - Python
 
 
 - PyCharm remote interpreter (PyCharm Professional only)
@@ -13,7 +13,7 @@
 
 
 
-## Visual Studio Code - C/C++
+### Visual Studio Code - C/C++
 
 1. Install VSCode extension
 
