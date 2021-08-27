@@ -12,19 +12,22 @@
 
 - [JetPack SDK | NVIDIA Developer](https://developer.nvidia.com/embedded/jetpack#install)
 
-- [Jetson AI Courses and Certification | NVIDIA Developer](https://developer.nvidia.com/embedded/learn/jetson-ai-certification-programs#course_outline)
+- [Jetson AI Courses and Certification | NVIDIA Developer](https://developer.nvidia.com/embedded/learn/jetson-ai-certification-programs#course_outline)　　
 
+</br>
 
-### Nano power supply
+### ↬ Nano power supply
 
-- [DC power supply](./assets/DC%20power%20supply.jpg)
+- [DC power supply](https://github.com/tingkts/Nvidia-Jetson-Nano/blob/main/assets/DC%20power%20supply.jpg)
 
 - USB cable of micro USB ─ type A, 5V ≥2.1A power supply at least
 
-### Swap configuration
+</br>
+
+### ↬ Swap configuration
 
 - use Nano default zram 2G of four 512 MB partitions.
 
 - plug `jtop → memory → swap enable`, will add a new /swfile 2G.　[🖺](https://github.com/tingkts/Nvidia-Jetson-Nano/blob/main/assets/jtop%20%E2%86%92%204MEM%20%E2%86%92%20Swap.png)
 
-&emsp;the final sawp configuration as [here](./assets/swap%20size%204G.png), 4G swap size is enough.
+&emsp;the final sawp configuration as [here](https://github.com/tingkts/Nvidia-Jetson-Nano/blob/main/assets/swap%20size%204G.png), 4G swap size is enough.
