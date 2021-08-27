@@ -1,38 +1,16 @@
+It's the studying notes of Jetson Nano, JetPack, TensorRT
 
-## Jetson Nano / JetPack
+</br>
 
-- [Getting Start with Nano](.\Getting%20Start%20with%20Nano.md)
+Topics :
 
-- Nano profile
+- [Jetson Nano / JetPack](./jetson%20nano%2C%20jetpack/README.md)
 
-- Nano OOM
+- [TensorRT](./tensorrt/README.md)
 
+- [Tensorflow Object Detection API](./tensorflow%20object%20detection%20api/README.md)
 
+- [Development environment setup](./development%20environment%20setup/README.md)
 
-## TensorRT
-
-- [jetson-inference]
-
-- [TensorRT]
-
-    - [Tensorflow-TensorRT (tf-trt)]
-
-
-
-## Tensorflow Object Detection API
-
-
-## Development tips
-
-
-- [Development environment setup](.\Development%20environment%20setup.md)
-
-
-
-## Others
-
-- Nvidia NGC
-
-
-## Notices
+- [Others]()
 
