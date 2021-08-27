@@ -17,7 +17,7 @@
 
 ### Nano power supply
 
-- [DC power supply](.\assets\DC%20power%20supply.jpg)
+- [DC power supply](./assets/DC%20power%20supply.jpg)
 
 - USB cable of micro USB ─ type A, 5V ≥2.1A power supply at least
 
@@ -25,6 +25,6 @@
 
 - use Nano default zram 2G of four 512 MB partitions.
 
-- plug `jtop → memory → swap enable`, will add a new /swfile 2G.　[🖺](.\assets\jtop%20→%204MEM%20→%20Swap.png)　[🖺](.\assets\swap%20size%204G.png)
+- plug `jtop → memory → swap enable`, will add a new /swfile 2G.　[🖺](https://github.com/tingkts/Nvidia-Jetson-Nano/blob/main/assets/jtop%20%E2%86%92%204MEM%20%E2%86%92%20Swap.png)
 
-&emsp;the final sawp configuration as below, 4G swap size is enough.
+&emsp;the final sawp configuration as [here](./assets/swap%20size%204G.png), 4G swap size is enough.

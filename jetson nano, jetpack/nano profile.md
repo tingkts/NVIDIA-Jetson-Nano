@@ -13,7 +13,7 @@ Codename:	bionic
 
 JetPack
 
-![avatar](./assets/nano profile - jetpack.png)
+![avatar](https://github.com/tingkts/Nvidia-Jetson-Nano/blob/main/assets/nano%20profile%20-%20jetpack.png)
 
 
 GPU
