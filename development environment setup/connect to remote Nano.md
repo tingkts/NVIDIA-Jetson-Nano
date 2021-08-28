@@ -5,7 +5,7 @@ ssh is the most basic, so you must ensure that the ssh connection is normal.
 
 ## Remote File Exchange
 
-- samba
+- samba　[↗](https://www.google.com/search?q=system-config-samba&rlz=1C1GCEU_zh-TWTW892TW892&oq=system-config-samba&aqs=chrome..69i57j0i512l6j69i65.6150j0j7&sourceid=chrome&ie=UTF-8)
 
 - [XFTP - Effortless File Transfers Over A Network](https://www.netsarang.com/en/xftp-download/)
 
