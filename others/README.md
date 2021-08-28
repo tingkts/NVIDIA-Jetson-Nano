@@ -1,8 +1,8 @@
-Python2 Python3 incompatible
+Python2 and Python3 are not compatible
 
-Tensorflow1 TensorFlow2 incompatible
+Tensorflow1 and TensorFlow2 are not compatible
 
-TensorRT each version incompatible
+TensorRT versions are not compatible
 
 </br>
 

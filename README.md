@@ -4,7 +4,7 @@ It's the studying notes of Jetson Nano, JetPack, TensorRT
 
 Topics :
 
-- [Jetson Nano / JetPack](./jetson%20nano%2C%20jetpack/README.md)
+- [Jetson Nano / JetPack SDK](./jetson%20nano%2C%20jetpack/README.md)
 
 - [TensorRT](./tensorrt/README.md)
 
