@@ -1,4 +1,4 @@
-It's the studying notes of Jetson Nano, JetPack, TensorRT
+This is the study notes of NVIDIA [Jetson Nano](https://developer.nvidia.com/embedded/jetson-nano-developer-kit) , [JetPack SDK](https://developer.nvidia.com/embedded/jetpack) , [TensorRT](https://developer.nvidia.com/tensorrt).&emsp;_< from scratch >_
 
 </br>
 
