@@ -5,7 +5,7 @@ Jetson Nano / JetPack
 
 - [Nano profile](./nano%20profile.md)
 
-- Nano OOM
+- [Nano OOM](nano%20OOM.md)
 
 
 

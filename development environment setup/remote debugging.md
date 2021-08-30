@@ -14,6 +14,35 @@
 
 
 
+
+
+
+</br>
+
+### Juypter remote connection
+
+- [[譯] 如何在遠端伺服器上執行 Jupyter Notebooks | IT人](https://iter01.com/143620.html)
+- [透過遠端主機執行jupyter-notebook - HackMD](https://hackmd.io/@3OnqnT1fTvGgrRoxGGdA-g/BJ0hTH5QL)
+
+```
+    Remote:
+
+        cd project_folder
+        jupyter notebook --no-browser --port=8889
+
+    Local:
+
+        ssh -N -f -L localhost:8889:localhost:8889 username@remote_server_ip
+        Open the browser, enter in the URL UI, localhost:8889, localhost:8889
+
+```
+
+
+
+
+
+</br>
+
 ### Visual Studio Code - C/C++
 
 1. Install VSCode extension

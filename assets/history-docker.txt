@@ -1,0 +1,88 @@
+   28  cd docker/
+   33  docker login nvcr.io
+   43  docker -V
+   44  docker -v
+   54  cd docker/
+   57  docker pull nvcr.io/nvidia/tensorflow:21.06-tf2-py3
+   82  cd docker/
+   85  docker login nvcr.io
+   87  docker login nvcr.io
+   94  docker login nvcr.io
+   95  docker pull nvcr.io/nvidia/tensorflow:21.06-tf2-py3
+   96  docker
+   97  docker -v
+   98  docker pull nvcr.io/nvidia/tensorflow:21.06-tf2-py3
+   99  nvidia-docker -v
+  101  sudo apt-get install -y docker nvidia-container-toolkit
+  102  which docker
+  103  ll /usr/bin/docker
+  105  docker login nvcr.io
+  135  docker pull nvcr.io/nvidia/tensorflow:21.06-tf1-py3
+  136  sudo  docker run hello-world
+  138  sudo  docker run hello-world
+  139  sudo docker pull nvcr.io/nvidia/tensorflow:21.06-tf1-py3
+  149  docker --help
+  152  nvidia-docker -V
+  153  nvidia-docker -v
+  154  cat /etc/docker/daemon.json 
+  155  docker version
+  156  ps -A | grep -i docker
+  157  ps -AlZ | grep -i docker
+  159  cat /etc/group | grep -i docker
+  160  sudo usermod -aG docker $USER
+  164  docker run hello-world
+  165  docker imager ls
+  166  docker image ls
+  167  docker container    ls
+  168  docker   image   ls
+  169  docker container ls --all
+  181  cd docker/
+  186  docker image list
+  187   docker run --gpus all  -it --rm --device /dev/video0  nvcr.io/nvidia/tensorflow
+  188  docker run --gpus all  -it --rm --device /dev/video0  nvcr.io/nvidia/tensorflow:21.06-tf2-py3
+  189  docker image list
+  191  docker image -h
+  192  docker run --gpus all -it --rm  nvcr.io/nvidia/tensorflow:21.06-tf2-py3
+  193  nvidia-docker run -it --rm nvcr.io/nvidia/tensorflow::21.06-tf2-py3
+  194  sudo nvidia-docker run -it --rm nvcr.io/nvidia/tensorflow::21.06-tf2-py3
+  196  sudo nvidia-docker version
+  197  docker image list
+  198  docker image rm nvcr.io/nvidia/tensorflow:21.06-tf2-py3
+  200  docker image rm nvcr.io/nvidia/tensorflow:21.06-tf1-py3
+  202  docker image list
+  203  sudo docker run --runtime nvidia -it --rm --network host --volume ~/nvdli-data:/nvdli-nano/data --device /dev/video0 \
+  206  sudo docker run --runtime nvidia -it --rm --network host --volume ~/nvdli-data:/nvdli-nano/data --device /dev/video0 \
+  208  sudo docker run --runtime nvidia -it --rm --network host --volume ~/nvdli-data:/nvdli-nano/data --device /dev/video0 \
+  210  sudo docker run --runtime nvidia -it --rm --network host --volume ~/nvdli-data:/nvdli-nano/data --device /dev/video0 nvcr.io/nvidia/dli/dli-nano-ai:v2.0.1-r32.4.4sudo docker run --runtime nvidia -it --rm --network host --volume ~/nvdli-data:/nvdli-nano/data --device /dev/video0 \
+  212  sudo docker run --runtime nvidia -it --rm --network host --volume ~/nvdli-data:/nvdli-nano/data --device /dev/video0 \
+  213  docker run --runtime nvidia -it --rm --network host --volume ~/nvdli-data:/nvdli-nano/data --device /dev/video0 nvcr.io/nvidia/dli/dli-nano-ai:v2.0.1-r32.4.4
+  225  rm -Rvf docker/
+  226  docker run --runtime nvidia -it --rm --network host --volume ~/nvdli-data:/nvdli-nano/data --device /dev/video0  nvcr.io/nvidia/dli/dli-nano-ai:v2.0.1-r32.4.4
+  227  docker image list
+  228  docker image rm c137d31982aa
+  229  docker image list
+  231  docker run hello-world
+  232  docker run --gpus -it --rm  nvcr.io/nvidia/dli/dli-nano-ai:v2.0.1-r32.5.0
+  233  docker run --gpus all -it --rm  nvcr.io/nvidia/dli/dli-nano-ai:v2.0.1-r32.5.0
+  234  docker ps
+  235  docker start 93d9293912b3
+  236  docker ps
+  237  docker ps -a
+  238  docker ps -a
+  239  docker  stop --help
+  240  docker  stop nvcr.io/nvidia/dli/dli-nano-ai:v2.0.1-r32.5.0
+  241  docker  stop   93d9293912b3 
+  242  docker ps -a
+  243  docker stop 2bbcf042919d 8d753425fb67 3c485a3646fd b4c0d0733e96
+  244  docker ps -a
+  246  docker image list
+  247  docker image rm nvcr.io/nvidia/dli/dli-nano-ai
+  248  docker image rm nvcr.io/nvidia/dli/dli-nano-ai:v2.0.1-r32.5.0
+  250  docker image list
+  252  docker run --gpus all -it --rm  nvcr.io/nvidia/tensorflow:21.06-tf2-py3
+  254  docker image list
+  255  docker image rm fa0b4d2c8db2 
+  256  docker image list
+  502  history | grep -i docker
+  504  history | grep -i docker
+  507  history | grep -i docker 2>&1 | tee history-docker.txt
