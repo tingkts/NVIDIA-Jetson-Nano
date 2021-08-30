@@ -37,6 +37,7 @@ Nano RAM is only 4G, plus Swap 4G. It's easy to encounter Out Of Memory issue. H
     - [Limiting GPU memory growth](https://www.tensorflow.org/guide/gpu#limiting_gpu_memory_growth)
 
     ```python
+    # show the function was executed in GPU or CPU
 	tf.debugging.set_log_device_placement(True)
 
 	gpus = tf.config.list_physical_devices('GPU')
@@ -49,4 +50,14 @@ Nano RAM is only 4G, plus Swap 4G. It's easy to encounter Out Of Memory issue. H
 	  except RuntimeError as e:
 	    # Visible devices must be set before GPUs have been initialized
         print(e)
+
+    # dynamic memory allocatino
+    gpus = tf.config.experimental.lst_physical_devices('GPU')
+    for gpu in gpus:
+        tf.config.experimental.set_memory_growth(gpu, True)
+
+    # fixed memory size
+    gpus = tf.config.experimental.lst_physical_devices('GPU')
+    if gpus:
+        tf.config.experimental.set_virtual_device_configuration(gpus[0], [tf.config.experimental.VirtualDeviceConfiguration(memory_limit=1024*2)])
     ```
