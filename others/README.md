@@ -58,7 +58,9 @@
  ```
 &emsp;&ensp;[NGC Nano images](https://ngc.nvidia.com/catalog/containers?orderBy=scoreDESC&pageNumber=0&query=nano&quickFilter=containers&filters=)
 
-&emsp;&ensp; ⚠️ Only the Docker image of Getting start is for Nano. Other NGC images, especially the docker image of tf-trt, are not build arm 64, and fail to start on Nano.
+&emsp;&ensp; ⚠️ Only the Docker images of "Getting Start" guide are for Nano.</br>
+&emsp;&ensp; &ensp; &ensp; Other NGC images, especially the docker images of tf-trt, are not build arm 64, </br>
+&emsp;&ensp; &ensp; &ensp; and fail to launch on Nano.
 
 - [Download Docker And Start JupyterLab | S-RX-02 课程页面 | Deep Learning Institute](https://courses.nvidia.com/courses/course-v1:DLI+S-RX-02+V2/courseware/b2e02e999d9247eb8e33e893ca052206/63a4dee75f2e4624afbc33bce7811a9b/?activate_block_id=block-v1%3ADLI%2BS-RX-02%2BV2%2Btype%40sequential%2Bblock%4063a4dee75f2e4624afbc33bce7811a9b)
 
