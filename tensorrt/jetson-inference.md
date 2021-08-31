@@ -5,4 +5,4 @@
 
   ![](https://github.com/dusty-nv/jetson-inference/raw/dev/docs/images/deep-vision-primitives.jpg)
 
-- The [Transfer Learning with PyTorch](https://github.com/dusty-nv/jetson-inference#training) section of the tutorial speaks from the perspective of running PyTorch onboard Jetson for training DNNs, however the same PyTorch code can be used on a PC, server, or cloud instance with an NVIDIA discrete GPU for faster training.
+- The [Transfer Learning with PyTorch](https://github.com/dusty-nv/jetson-inference/blob/master/docs/pytorch-transfer-learning.md) section of the tutorial speaks from the perspective of running PyTorch onboard Jetson for training DNNs, however the same PyTorch code can be used on a PC, server, or cloud instance with an NVIDIA discrete GPU for faster training.

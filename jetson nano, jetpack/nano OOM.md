@@ -6,6 +6,8 @@ Nano RAM is only 4G, plus Swap 4G. It's easy to encounter Out Of Memory issue. H
 	- [Ubuntu18.04 关闭和开启图形用户界面_执念如此Arcon的博客-CSDN博客_ubuntu18.04关闭图形界面](https://blog.csdn.net/happy_lucky52/article/details/82626901)
 	- [玩转Jetson Nano（六）安装caffe_beckhans的博客-CSDN博客_jetson nano安装caffe | OOM关闭图形显示介面](https://blog.csdn.net/beckhans/article/details/89393280)
 
+    </br>
+
     ```shell
 	# turn off Graphic UI
 	sudo systemctl set-default multi-user.target
@@ -19,6 +21,8 @@ Nano RAM is only 4G, plus Swap 4G. It's easy to encounter Out Of Memory issue. H
 - Use CPU to replace GPU
 
 	- [解决TensorFlow GPU版出现OOM错误_lzhero的博客-CSDN博客](https://blog.csdn.net/weixin_42007359/article/details/84634600)
+
+    </br>
 
 
     ```shell
@@ -35,6 +39,8 @@ Nano RAM is only 4G, plus Swap 4G. It's easy to encounter Out Of Memory issue. H
 
     - [Use a GPU  |  TensorFlow Core](https://www.tensorflow.org/guide/gpu)
     - [Limiting GPU memory growth](https://www.tensorflow.org/guide/gpu#limiting_gpu_memory_growth)
+
+    </br>
 
     ```python
     # show the function was executed in GPU or CPU

@@ -18,7 +18,8 @@
 
 ### ↬ Nano power supply
 
-- [DC power supply](https://github.com/tingkts/Nvidia-Jetson-Nano/blob/main/assets/DC%20power%20supply.jpg)
+- DC power supply </br>
+![avatar](../assets/DC%20power%20supply.jpg)
 
 - USB cable of micro USB ─ type A, 5V ≥2.1A power supply at least
 

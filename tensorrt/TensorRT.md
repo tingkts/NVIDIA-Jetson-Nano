@@ -3,8 +3,8 @@
 
 - [Documentation Archives :: NVIDIA Deep Learning TensorRT Documentation](https://docs.nvidia.com/deeplearning/tensorrt/archives/index.html)
 
-- [NVIDIA / TensorRT](https://github.com/NVIDIA/TensorRT)
-    - [TRT 7.1.3](https://github.com/NVIDIA/TensorRT/tree/7.1.3)
+- [NVIDIA/TensorRT: TensorRT is a C++ library for high performance inference on NVIDIA GPUs and deep learning accelerators.](https://github.com/NVIDIA/TensorRT)
+    - [NVIDIA/TensorRT at 7.1.3](https://github.com/NVIDIA/TensorRT/tree/7.1.3)
 
         - [TRT 7.1.3 C++ API](https://docs.nvidia.com/deeplearning/tensorrt/archives/tensorrt-713/api/c_api/index.html)
         - [TRT 7.1.3 Python API](https://docs.nvidia.com/deeplearning/tensorrt/archives/tensorrt-713/api/python_api/index.html)
@@ -35,19 +35,19 @@
 |maxBatchSize|Indicates the maximum batch size optimized by TensorRT&emsp;_<*1>_|
 |maxWorkspaceSize|Indicates the maximum space (bytes) that can be used by any layer in the network|
 
-&emsp;&emsp; _<*1>_ &emsp; e.g. total 600 train images, batch size 8 &nbsp;—→ &nbsp;75 batches. One cycle runs 8 images (a batch), for a total of 75 cycles (batches).
+&emsp;_<*1>_ &emsp; e.g. total 600 train images, batch size 8 &nbsp;—→ &nbsp;75 batches. One cycle runs 8 images (a batch), for a total of 75 cycles (batches).
 
 </br>
 
 - TRT Engine Serialization
 
 ```
-        TRT Engine ←——→ .trt file
-                Serialize
-               Deserialize
+    TRT Engine ←——→ .trt file
+            Serialize
+            Deserialize
 
-        ▪ Not cross-platform
-        ▪ Also cannot cross TensorRT version
+    ▪ Not cross-platform
+    ▪ Also cannot cross TensorRT version
 ```
 
 </br>
@@ -77,7 +77,7 @@
 
 &emsp;&emsp;[UFF Converter](https://docs.nvidia.com/deeplearning/tensorrt/api/python_api/uff/uff.html)
 
-&emsp;&emsp;[GraphSurgeon](https://docs.nvidia.com/deeplearning/tensorrt/api/python_api/graphsurgeon/graphsurgeon.html)
+&emsp;&emsp;[Graph Surgeon](https://docs.nvidia.com/deeplearning/tensorrt/api/python_api/graphsurgeon/graphsurgeon.html)
 
 </br>
 

@@ -12,6 +12,8 @@ TensorRT versions are not compatible
 
 ---
 
+</br>
+
 *< Misc. >*
 
 - Check if NVIDIA GPU&ensp;:&ensp;  `lspci | grep -i nvidia`
@@ -30,6 +32,7 @@ TensorRT versions are not compatible
     v4l2-ctl --list-formats-ext
    ```
 
+</br>
 
 ---
 

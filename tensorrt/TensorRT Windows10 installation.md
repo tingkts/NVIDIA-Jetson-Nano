@@ -1,6 +1,6 @@
 
 
-↬ &nbsp;[TensorRT Installation Guide](https://docs.nvidia.com/deeplearning/tensorrt/archives/tensorrt-713/install-guide/index.html)
+### [TensorRT Installation Guide](https://docs.nvidia.com/deeplearning/tensorrt/archives/tensorrt-713/install-guide/index.html)
 
 &emsp;▪&ensp;[NVIDIA TensorRT 7.x Download](https://developer.nvidia.com/nvidia-tensorrt-7x-download)
 
@@ -34,7 +34,7 @@ e.g.
 
 ⚠️ TensorRT 7.1.3 Windows 10 installation doesn't include Python API, so Python API isn't supported in Windows 10.
 
-[![Alt Text](./assets/TensorRT Windows 10 python api isn't supported.PNG "Image Title (optional)")](https://docs.nvidia.com/deeplearning/tensorrt/install-guide/index.html#installing-pip "Link Title (optional)")
+[![Alt Text](../assets/TensorRT%20Windows%2010%20python%20api%20isn't%20supported.PNG "Image Title (optional)")](https://docs.nvidia.com/deeplearning/tensorrt/install-guide/index.html#installing-pip "Link Title (optional)")
 
 
 
@@ -52,7 +52,7 @@ Refs:
 
 </br>
 
-↬ &nbsp;Self-check installation steps :
+#### Self-check installation steps :
 
 1. Confirm what version of TensorRT to install</br>e.g. [TensorRT-7.1.3.4.Windows10.x86_64.cuda-11.0.cudnn8.0.zip](https://developer.nvidia.com/compute/machine-learning/tensorrt/secure/7.1/zips/TensorRT-7.1.3.4.Windows10.x86_64.cuda-11.0.cudnn8.0.zip)
 
@@ -77,7 +77,10 @@ Then query the corresponding CUDA version supported.
 
 
 </br>
-< ALL DONE >
+
+_< ALL DONE >_
+
+</br>
 
 Verify whether the installation successful :
 
@@ -87,7 +90,7 @@ Verify whether the installation successful :
 </br>
 
 &emsp;&nbsp;&nbsp; If it is correct, you will see the corresponding cuda, cudnn dll is loaded.</br>
-&emsp;&nbsp;&nbsp; ![avatar](./assets/cuda%20cudnn%20dll%20loaded.png)
+&emsp;&nbsp;&nbsp; ![avatar](../assets/cuda%20cudnn%20dll%20loaded.png)
 
 
 </br>

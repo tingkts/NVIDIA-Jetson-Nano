@@ -1,5 +1,5 @@
 
-Jetson Nano / JetPack
+Jetson Nano / JetPack SDK
 
 - [Getting Start with Nano](./Getting%20Start%20with%20Nano.md)
 

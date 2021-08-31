@@ -28,6 +28,9 @@ lspci
 lshw
 ```
 
+</br>
 
-ref:
+Ref :
 - [Jetson Nano - GPU Memory usage monitoring - Jetson & Embedded Systems / Jetson Nano - NVIDIA Developer Forums](https://forums.developer.nvidia.com/t/jetson-nano-gpu-memory-usage-monitoring/109656)
+
+![avatar](../assets/Jetson%20Nano%20-%20GPU%20MEMORY%20usage%20monitoring.PNG)

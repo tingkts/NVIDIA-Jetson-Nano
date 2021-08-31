@@ -1,9 +1,9 @@
 
 TensorRT
 
-- [jetson-inference](./jetsion%20inference.md)
+- [jetson-inference](./jetson-inference.md)
 
-- [TensorRT] (./TensorRT.md)
+- [TensorRT](./TensorRT.md)
 
 - [Tensorflow-TensorRT (TF-TRT)](./TensorFlow-TensorRT%20(TF-TRT).md)
 
@@ -32,4 +32,4 @@ UFF (Universal Framework Format) models &nbsp;&nbsp;[➚](https://www.google.com
 
 </br>
 
-[run sample.xls](./assets/run%20sample.xls)
+[run sample.xls](../assets/run%20sample.xls)
