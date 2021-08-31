@@ -27,7 +27,7 @@ Nano RAM is only 4G, plus Swap 4G. It's easy to encounter Out Of Memory issue. H
     import os
     os.environ["CUDA_VISIBLE_DEVICES"] = ""
 
-     # The quotation marks are filled with the serial number of the GPU. When it is not filled, it means that the GPU is not used.
+        # The quotation marks are filled with the serial number of the GPU. When it is not filled, it means that the GPU is not used.
     ```
 
 
