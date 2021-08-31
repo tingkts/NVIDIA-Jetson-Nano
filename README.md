@@ -12,5 +12,5 @@ Topics :
 
 - [Development environment setup](./development%20environment%20setup/README.md)
 
-- [Others]()
+- [Others](./others/README.md)
 

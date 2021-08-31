@@ -1,8 +1,9 @@
-Python2 and Python3 are not compatible
 
-Tensorflow1 and TensorFlow2 are not compatible
+⚠️&nbsp;Python2 and Python3 are not compatible
 
-TensorRT versions are not compatible
+⚠️&nbsp;Tensorflow1 and TensorFlow2 are not compatible
+
+⚠️&nbsp;TensorRT versions are not compatible
 
 </br>
 

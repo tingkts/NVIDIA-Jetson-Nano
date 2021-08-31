@@ -30,12 +30,12 @@ op `transpose`
 
 </br>
 
-↬&ensp;For pre-trained models, Some information needs to be checked,
-&emsp; </br>－&ensp;What's the algorithm, MobileNet, ResNet, …
-&emsp; </br>－&ensp;What's the AI framework, tensorflow, keras, pytorch, caffe, …
-&emsp; </br>－&ensp;What's the shape of input, output ?
-&emsp; </br>&emsp;&emsp; ▪ input pre-processing ? Image, resize, reshape, normalization, …
-&emsp; </br>&emsp;&emsp; ▪ output post-processing ?
-&emsp; </br>－&ensp;the special layer, op used ?
-&emsp; </br>－&ensp;the dataset, label file ?
-&emsp; </br>－&ensp;the model config file ?
+↬&ensp;For pre-trained models, some information needs to be checked,</br>
+ </br>&emsp;－&ensp;What's the algorithm, MobileNet, ResNet, …
+ </br>&emsp;－&ensp;What's the AI framework, tensorflow, keras, pytorch, caffe, …
+ </br>&emsp;－&ensp;What's the shape of input, output ?
+ </br>&emsp;&emsp;&emsp; ▪ input pre-processing ? Image, resize, reshape, normalization, …
+ </br>&emsp;&emsp;&emsp; ▪ output post-processing ?
+ </br>&emsp;－&ensp;the special layer, op used ?
+ </br>&emsp;－&ensp;the dataset, label file ?
+ </br>&emsp;－&ensp;the model config file ?

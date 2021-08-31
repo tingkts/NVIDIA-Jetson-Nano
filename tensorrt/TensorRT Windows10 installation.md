@@ -1,10 +1,8 @@
-
-
 ### [TensorRT Installation Guide](https://docs.nvidia.com/deeplearning/tensorrt/archives/tensorrt-713/install-guide/index.html)
 
-&emsp;▪&ensp;[NVIDIA TensorRT 7.x Download](https://developer.nvidia.com/nvidia-tensorrt-7x-download)
+- [NVIDIA TensorRT 7.x Download](https://developer.nvidia.com/nvidia-tensorrt-7x-download)
 
-&emsp;▪&ensp;[TensorRT-7.1.3.4.Windows10.x86_64.cuda-11.0.cudnn8.0.zip](https://developer.nvidia.com/compute/machine-learning/tensorrt/secure/7.1/zips/TensorRT-7.1.3.4.Windows10.x86_64.cuda-11.0.cudnn8.0.zip)
+- [TensorRT-7.1.3.4.Windows10.x86_64.cuda-11.0.cudnn8.0.zip](https://developer.nvidia.com/compute/machine-learning/tensorrt/secure/7.1/zips/TensorRT-7.1.3.4.Windows10.x86_64.cuda-11.0.cudnn8.0.zip)
 
 
 
@@ -52,7 +50,8 @@ Refs:
 
 </br>
 
-#### Self-check installation steps :
+#### __Summary of installation steps__ :
+</br>
 
 1. Confirm what version of TensorRT to install</br>e.g. [TensorRT-7.1.3.4.Windows10.x86_64.cuda-11.0.cudnn8.0.zip](https://developer.nvidia.com/compute/machine-learning/tensorrt/secure/7.1/zips/TensorRT-7.1.3.4.Windows10.x86_64.cuda-11.0.cudnn8.0.zip)
 
@@ -84,21 +83,18 @@ _< ALL DONE >_
 
 Verify whether the installation successful :
 
-&ensp; ▪ &ensp;enter python console, import tensorflow,</br>
-&emsp;&nbsp;&nbsp; check if there is any abnormal error messages.
-
-</br>
-
-&emsp;&nbsp;&nbsp; If it is correct, you will see the corresponding cuda, cudnn dll is loaded.</br>
+- enter python console, import tensorflow,</br>
+check if there is any abnormal error messages.</br>
+If it is correct, you will see the corresponding cuda, cudnn dll is loaded.</br>
 &emsp;&nbsp;&nbsp; ![avatar](../assets/cuda%20cudnn%20dll%20loaded.png)
 
 
 </br>
 
-&ensp; ▪ &ensp;Open sampleMNIST by Visual Studio.</br>
-&emsp;&nbsp;&nbsp; Follow the guide to add TensorRT header/library path,</br>
-&emsp;&nbsp;&nbsp; Compile it,</br>
-&emsp;&nbsp;&nbsp; If the build is successful, sample_mnist.exe will be generated,</br>
-&emsp;&nbsp;&nbsp; Finally, execute it in the console.
+- Open sampleMNIST by Visual Studio.</br>
+Follow the guide to add TensorRT header/library path,</br>
+Compile it,</br>
+If the build is successful, sample_mnist.exe will be generated,</br>
+Finally, execute it in the console.
 
 
