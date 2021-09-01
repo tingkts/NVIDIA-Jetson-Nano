@@ -25,15 +25,15 @@
 - [透過遠端主機執行jupyter-notebook - HackMD](https://hackmd.io/@3OnqnT1fTvGgrRoxGGdA-g/BJ0hTH5QL)
 
 ```
-    Remote:
+    Remote :
 
         cd project_folder
         jupyter notebook --no-browser --port=8889
 
-    Local:
+    Local :
 
         ssh -N -f -L localhost:8889:localhost:8889 username@remote_server_ip
-        Open the browser, enter in the URL UI, localhost:8889, localhost:8889
+        Open the browser, enter "localhost:8889" in the URL
 
 ```
 
@@ -50,7 +50,7 @@
     - Local VSCode
 
         - Install Extension of [Remote SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh),
-        [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote)vscode-remote-extensionpack)
+        [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
 
     - Remote VSCode
 
@@ -68,7 +68,7 @@
         ./gdbserver :14399 test
     ```
 
-5. In local VSCode, edit ["luncher.json"](.\assets\9dae3bba5fb86f6094a62e925ac43a7b.jpg)
+5. In local VSCode, edit ["luncher.json"](../assets/9dae3bba5fb86f6094a62e925ac43a7b.jpg)
 
     ```json
         “program”： target program in the remote linux system
@@ -78,7 +78,7 @@
 
 6. In local VSCode, add breakpoints and start debugging.
 
-ref:
+Ref:
 - VSCode extensions:
     - [vscode配置遠端開發環境並遠端除錯執行C++程式碼的教程_程式設計_程式人生](https://www.796t.com/article.php?id=17651)
     - [vscode C++远程调试运行（学习C++用）_C 语言_脚本之家](https://www.jb51.net/article/184037.htm)

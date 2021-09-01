@@ -36,7 +36,8 @@ So use [virtualenv](https://pypi.org/project/virtualenv/) or [python3-venv](http
 
 ⚠️ ~~pyenv~~ was deprecated ≧ Python3.6
 
-⭐ In teh virtual env, **should not** use `sudo pip/pip3 install ...`, it well install the package into the global environment ; should use `pip/pip3 install ...` to install package correctly in the target virtual env instaed.
+⭐ In teh virtual env, **should not** use `sudo pip/pip3 install ...` , it will install the package into the global environment ; </br>
+&emsp;&nbsp;&nbsp;should use `pip/pip3 install ...` to install package correctly in the target virtual env instaed.
 
 ```shell
 
@@ -59,9 +60,12 @@ So use [virtualenv](https://pypi.org/project/virtualenv/) or [python3-venv](http
   (venv) deactivate
 ```
 
-**!!**&ensp;Onec the *venv* was created, can't rename, move or copy it. Should use other package like virtualenv-clone or else to clone venv, or use 'requirement.txt' to export/import the venv.
 
-_< trick >_&ensp For clone pacakge between the diffrence venv with the same python version and which pacakge dependencies, can copy packages under 'dist-packages' or 'site-package' to the new target venv directly.
+⚠️ Onec the *venv* was created, can't rename, move or copy it.</br>
+&emsp;&nbsp;&nbsp;Should use other package like virtualenv-clone or else to clone venv,</br>
+&emsp;&nbsp;&nbsp;or use 'requirement.txt' to export/import the venv.
+
+_< trick >_&ensp;For clone pacakge between the diffrence venv with the same python version and which pacakge dependencies, can copy packages under 'dist-packages' or 'site-package' to the new target venv directly.
 
 </br>
 
@@ -87,18 +91,15 @@ _< trick >_&ensp For clone pacakge between the diffrence venv with the same pyth
 ```shell
     python -c "command"
 
-    python -m "Module"  # Module is a *.py. Contains all variables and functions within it.
+    python -m "Module" # Module is a *.py. Contains all variables and functions within it.
 
-
-    >>> dir(__builtins__)   # Query built-in functions
+    >>> dir(__builtins__) # Query built-in functions
     ['ArithmeticError', 'AssertionError', 'AttributeError', 'BaseException', 'BlockingIOError', 'BrokenPipeError', 'BufferError', 'BytesWarning', 'ChildProcessError', 'ConnectionAbortedError', 'ConnectionError', 'ConnectionRefusedError', 'ConnectionResetError', 'DeprecationWarning', 'EOFError', 'Ellipsis', 'EnvironmentError', 'Exception', 'False', 'FileExistsError', 'FileNotFoundError', 'FloatingPointError', 'FutureWarning', 'GeneratorExit', 'IOError', 'ImportError', 'ImportWarning', 'IndentationError', 'IndexError', 'InterruptedError', 'IsADirectoryError', 'KeyError', 'KeyboardInterrupt', 'LookupError', 'MemoryError', 'ModuleNotFoundError', 'NameError', 'None', 'NotADirectoryError', 'NotImplemented', 'NotImplementedError', 'OSError', 'OverflowError', 'PendingDeprecationWarning', 'PermissionError', 'ProcessLookupError', 'RecursionError', 'ReferenceError', 'ResourceWarning', 'RuntimeError', 'RuntimeWarning', 'StopAsyncIteration', 'StopIteration', 'SyntaxError', 'SyntaxWarning', 'SystemError', 'SystemExit', 'TabError', 'TimeoutError', 'True', 'TypeError', 'UnboundLocalError', 'UnicodeDecodeError', 'UnicodeEncodeError', 'UnicodeError', 'UnicodeTranslateError', 'UnicodeWarning', 'UserWarning', 'ValueError', 'Warning', 'ZeroDivisionError', '__build_class__', '__debug__', '__doc__', '__import__', '__loader__', '__name__', '__package__', '__spec__', 'abs', 'all', 'any', 'ascii', 'bin', 'bool', 'bytearray', 'bytes', 'callable', 'chr', 'classmethod', 'compile', 'complex', 'copyright', 'credits', 'delattr', 'dict', 'dir', 'divmod', 'enumerate', 'eval', 'exec', 'exit', 'filter', 'float', 'format', 'frozenset', 'getattr', 'globals', 'hasattr', 'hash', 'help', 'hex', 'id', 'input', 'int', 'isinstance', 'issubclass', 'iter', 'len', 'license', 'list', 'locals', 'map', 'max', 'memoryview', 'min', 'next', 'object', 'oct', 'open', 'ord', 'pow', 'print', 'property', 'quit', 'range', 'repr', 'reversed', 'round', 'set', 'setattr', 'slice', 'sorted', 'staticmethod', 'str', 'sum', 'super', 'tuple', 'type', 'vars', 'zip']
-    >>>
 
     >>> len(dir(__builtins__))
     152
 
-
-    help()    # function usage
+    help() # function usage
 
     type()
 
@@ -108,11 +109,11 @@ _< trick >_&ensp For clone pacakge between the diffrence venv with the same pyth
 
     is()
 
-    id()    # object unique ID
+    id() # object unique ID
 ```
 
 </br>
 
-★ The path of python should use **/** the same as Linux/Brower.
+⭐ The path of python should use **/** the same as Linux/Brower.
 
 

@@ -1,5 +1,5 @@
-## Install TensorFlow in Jetson Platfom
-- NVIDIA Deep Learning Frameworks Documentation
+### Install TensorFlow in Jetson Platform
+- [NVIDIA Deep Learning Frameworks Documentation](https://docs.nvidia.com/deeplearning/frameworks/index.html)
 
     - [Framework Containers Support Matrix](https://docs.nvidia.com/deeplearning/frameworks/support-matrix/index.html)
 
@@ -23,7 +23,6 @@
     // tf 1.5
 	pip3 install --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v45 tensorflow==1.15.5+nv21.6
 
-
     // tf 2
     pip3 install --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v45 tensorflow==2.3.1+nv20.12
 	pip3 install tensorflow-2.5.0+nv21.6-cp36-cp36m-linux_aarch64.whl
@@ -35,7 +34,6 @@
     ```python
 
     python -c "import tensorflow as tf;print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
-
 
 	$ python
 	>>> import tensorflow as tf
@@ -51,12 +49,12 @@
     🏁 Install other dependencies
 
     ```python
-		pip install scipy
-		pip install pandas
-		pip install sklearn
-		pip install keras
-		pip install opencv-python
-		pip install matplotlib
+    pip install scipy
+    pip install pandas
+    pip install sklearn
+    pip install keras
+    pip install opencv-python
+    pip install matplotlib
     ```
 
 
