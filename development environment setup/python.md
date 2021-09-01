@@ -1,6 +1,6 @@
 ## Python pip / pip3
 
-- Python2 Python3 are incompatible
+- Python2 and Python3 are incompatible
 
 - pip is for python2 , pip3 is for python3
 
@@ -62,10 +62,11 @@ So use [virtualenv](https://pypi.org/project/virtualenv/) or [python3-venv](http
 
 
 ⚠️ Onec the *venv* was created, can't rename, move or copy it.</br>
-&emsp;&nbsp;&nbsp;Should use other package like virtualenv-clone or else to clone venv,</br>
+&emsp;&nbsp;&nbsp;Should use the another package like virtualenv-clone or else to clone venv,</br>
 &emsp;&nbsp;&nbsp;or use 'requirement.txt' to export/import the venv.
 
-_< trick >_&ensp;For clone pacakge between the diffrence venv with the same python version and which pacakge dependencies, can copy packages under 'dist-packages' or 'site-package' to the new target venv directly.
+_< trick >_&ensp;For clone pacakge between the diffrence venv with the same python version and which pacakge dependencies,</br>
+&emsp;&emsp;&emsp;&emsp;&nbsp;can copy packages under 'dist-packages' or 'site-package' to the new target venv directly.
 
 </br>
 

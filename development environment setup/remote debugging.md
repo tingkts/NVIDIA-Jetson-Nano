@@ -13,7 +13,7 @@
 
 
 
-
+&emsp; &emsp; [📂](../assets/PyCharm%20Remote%20Debugging)
 
 
 
@@ -68,7 +68,7 @@
         ./gdbserver :14399 test
     ```
 
-5. In local VSCode, edit ["luncher.json"](../assets/9dae3bba5fb86f6094a62e925ac43a7b.jpg)
+5. In local VSCode, edit ["luncher.json"](../assets/9dae3bba5fb86f6094a62e925ac43a7b.jpg)&emsp;[📂](../assets/.vscode)
 
     ```json
         “program”： target program in the remote linux system
