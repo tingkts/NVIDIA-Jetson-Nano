@@ -23,8 +23,10 @@ UFF (Universal Framework Format) models &nbsp;&nbsp;[➚](https://www.google.com
 ---
 
 </br>
+Profile the given pre-trained model : </br>
 
-⭐&ensp;[Netron](https://netron.app/)
+&ensp; [Netron ⭐](https://netron.app/) </br>
+&ensp; [trtexec](https://docs.nvidia.com/deeplearning/tensorrt/developer-guide/index.html#trtexec)
 
 </br>
 
