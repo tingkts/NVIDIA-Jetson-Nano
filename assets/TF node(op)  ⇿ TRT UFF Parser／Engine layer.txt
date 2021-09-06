@@ -1,0 +1,13 @@
+
+UFF converter			convert model format *.pb  ——————————> *.uff
+
+UFF parser				parsing *.uff
+
+
+	
+	
+		*.pb  ——————————————————> *.uff
+		
+		tf node			  TRT UFF Parser/Engine		
+		   (op)             	(layer
+						 which implemented as TRT plugin)   

@@ -9,6 +9,8 @@
         - [TRT 7.1.3 C++ API](https://docs.nvidia.com/deeplearning/tensorrt/archives/tensorrt-713/api/c_api/index.html)
         - [TRT 7.1.3 Python API](https://docs.nvidia.com/deeplearning/tensorrt/archives/tensorrt-713/api/python_api/index.html)
 
+- [Working with tensorflow](https://docs.nvidia.com/deeplearning/tensorrt/archives/tensorrt-713/developer-guide/index.html#working_tf)
+
 </br>
 
 - TensorRT support model format :
