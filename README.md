@@ -10,6 +10,8 @@ Topics :
 
 - [Tensorflow Object Detection API](./tensorflow%20object%20detection%20api/README.md)
 
+- [Face Detection, Face Recognition](./face%20detection,%20face%20recognition//README.md)
+
 - [Development environment setup](./development%20environment%20setup/README.md)
 
 - [Others](./others/README.md)
