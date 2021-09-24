@@ -8,14 +8,11 @@
 </br>
 
 
-
-</br>
-
 ---
 
 </br>
 
-*< Misc. >*
+*< Misc. Commands >*
 
 - Check if NVIDIA GPU&ensp;:&ensp;  `lspci | grep -i nvidia`
 
@@ -81,3 +78,13 @@
 
     - [history-docker.txt](../assets/history-docker.txt)
     - [ngc docker startup error.txt](../assets/ngc%20docker%20startup%20error.txt)
+
+</br>
+
+---
+
+</br>
+
+*< Awesome Demo in Nano >*
+
+- [jkjung-avt/tensorrt_demos: TensorRT MODNet, YOLOv4, YOLOv3, SSD, MTCNN, and GoogLeNet](https://github.com/jkjung-avt/tensorrt_demos)
