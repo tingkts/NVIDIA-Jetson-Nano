@@ -1,6 +1,6 @@
 Face detection is a type of Object Detection.
 
-Demos：
+Demos in [Jetson Nano Jetpack 4.5.1](https://developer.nvidia.com/jetpack-sdk-451-archive)：
 
 - offical demo [dusty-nv/jetson-inference](https://github.com/dusty-nv/jetson-inference) that choice the network `facenet-120`.
 
