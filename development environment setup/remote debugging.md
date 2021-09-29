@@ -1,7 +1,7 @@
 
 ##  Remote Debugging
 
-### PyCharm - Python
+### [PyCharm](https://download.jetbrains.com/python/pycharm-professional-2021.1.3.exe?_gl=1*n9p5v2*_ga*MjQ3MDg2Mjk2LjE2MzI4ODIxMjM.*_ga_V0XZL7QHEB*MTYzMjkwMTA2MS4yLjEuMTYzMjkwMTI0Ni4w&_ga=2.259174732.753143679.1632882123-247086296.1632882123) - Python
 
 
 - PyCharm remote interpreter (PyCharm Professional only)
@@ -95,7 +95,7 @@ Ref:
 
 </br>
 
-### CLion - C/C++
+### [CLion](https://download.jetbrains.com/cpp/CLion-2021.2.1.exe?_gl=1*kpdxtn*_ga*MjQ3MDg2Mjk2LjE2MzI4ODIxMjM.*_ga_V0XZL7QHEB*MTYzMjkwMTA2MS4yLjEuMTYzMjkwMTA3OS4w&_ga=2.28663034.753143679.1632882123-247086296.1632882123) - C/C++
 
 Three ways ：
 
