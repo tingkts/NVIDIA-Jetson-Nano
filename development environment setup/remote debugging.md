@@ -107,4 +107,4 @@ Three ways ：
    - [GDB Remote Debug](https://www.jetbrains.com/help/clion/2021.1/remote-debug.html)
 
 
-&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp; <u>e.g. CLion configuration</u>　[↗](https://github.com/tingkts/JetsonNano-mtcnn_facenet_cpp_tensorRT/blob/master-demo-on-nano-jp4.5/mtcnn_facenet_cpp_tensorRT/.vscode%20-%20ssh%20remote%20host%20-%20gdb%20gdbserver%20debugging.zip)　[↗](../assets/CLion%20remote%20debug%20configuration)
+&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp; <u>e.g. CLion configuration</u>　[↗](https://github.com/tingkts/JetsonNano-mtcnn_facenet_cpp_tensorRT/blob/master-demo-on-nano-jp4.5/mtcnn_facenet_cpp_tensorRT/.idea%20.run%20-%20CLion%20remote%20debugging.zip)　[↗](../assets/CLion%20remote%20debug%20configuration)
