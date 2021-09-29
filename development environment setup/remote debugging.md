@@ -87,3 +87,24 @@ Ref:
     - [vscode remote gdb debug- CSDN搜索](https://so.csdn.net/so/search?q=vscode%20remote%20gdb%20debug&t=&u=)
     - [vscode remote 第三方库_VS Code与GDB Server远程调试_weixin_39608479的博客-CSDN博客](https://blog.csdn.net/weixin_39608479/article/details/109981248?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522162987288116780357240795%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=162987288116780357240795&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v29_ecpm-2-109981248.first_rank_v2_pc_rank_v29&utm_term=vscode+remote+gdb+debug&spm=1018.2226.3001.4187)
     - [VSCode GDB调试配置_bingyu的博客-CSDN博客](https://blog.csdn.net/bingyu9875/article/details/94745028?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522162987288216780271544950%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=162987288216780271544950&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~baidu_landing_v2~default-1-94745028.first_rank_v2_pc_rank_v29&utm_term=vscode+remote+gdb+debug&spm=1018.2226.3001.4187)
+
+
+
+
+
+
+</br>
+
+### CLion - C/C++
+
+Three ways ：
+
+1. [Full remote mode](https://www.jetbrains.com/help/clion/2021.1/remote-projects-support.html) &emsp;&emsp;[.idea ref. ↗](https://github.com/tingkts/JetsonNano-mtcnn_facenet_cpp_tensorRT/blob/master-demo-on-nano-jp4.5/mtcnn_facenet_cpp_tensorRT/.idea-CLion-Full%20remote%20mode.zip)
+
+2. [Remote debug via GDB/gdbserver](https://www.jetbrains.com/help/clion/2021.1/remote-debug-via-gdb-gdbserver.html)
+
+   - [Remote GDB Server](https://www.jetbrains.com/help/clion/2021.1/remote-gdb-server.html)
+
+   - [GDB Remote Debug](https://www.jetbrains.com/help/clion/2021.1/remote-debug.html)
+
+
