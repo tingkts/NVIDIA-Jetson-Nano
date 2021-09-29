@@ -15,7 +15,7 @@
 
 &emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp; [<u>e.g. PyCharm configuration</u>　↗](../assets/PyCharm%20Remote%20Debugging)
 
-<p align="right">[<u>e.g. PyCharm configuration</u>　↗](../assets/PyCharm%20Remote%20Debugging)</p>
+
 
 </br>
 
