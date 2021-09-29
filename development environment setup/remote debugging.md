@@ -13,9 +13,9 @@
 
 
 
-&emsp; &emsp; [📂](../assets/PyCharm%20Remote%20Debugging)
+&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp; [<u>e.g. PyCharm configuration</u>　↗](../assets/PyCharm%20Remote%20Debugging)
 
-
+<p align="right">[<u>e.g. PyCharm configuration</u>　↗](../assets/PyCharm%20Remote%20Debugging)</p>
 
 </br>
 
@@ -68,7 +68,7 @@
         ./gdbserver :14399 test
     ```
 
-5. In local VSCode, edit ["luncher.json"](../assets/9dae3bba5fb86f6094a62e925ac43a7b.jpg)&emsp;[📂](../assets/.vscode)
+5. In local VSCode, edit ["luncher.json"](../assets/9dae3bba5fb86f6094a62e925ac43a7b.jpg)&emsp;[↗](../assets/.vscode)
 
     ```json
         “program”： target program in the remote linux system
@@ -99,12 +99,12 @@ Ref:
 
 Three ways ：
 
-1. [Full remote mode](https://www.jetbrains.com/help/clion/2021.1/remote-projects-support.html) &emsp;&emsp;[.idea ref. ↗](https://github.com/tingkts/JetsonNano-mtcnn_facenet_cpp_tensorRT/blob/master-demo-on-nano-jp4.5/mtcnn_facenet_cpp_tensorRT/.idea-CLion-Full%20remote%20mode.zip)
-
-2. [Remote debug via GDB/gdbserver](https://www.jetbrains.com/help/clion/2021.1/remote-debug-via-gdb-gdbserver.html)
+- [Full remote mode](https://www.jetbrains.com/help/clion/2021.1/remote-projects-support.html)
+- [Remote debug via GDB/gdbserver](https://www.jetbrains.com/help/clion/2021.1/remote-debug-via-gdb-gdbserver.html)
 
    - [Remote GDB Server](https://www.jetbrains.com/help/clion/2021.1/remote-gdb-server.html)
 
    - [GDB Remote Debug](https://www.jetbrains.com/help/clion/2021.1/remote-debug.html)
 
 
+&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp; <u>e.g. CLion configuration</u>　[↗](https://github.com/tingkts/JetsonNano-mtcnn_facenet_cpp_tensorRT/blob/master-demo-on-nano-jp4.5/mtcnn_facenet_cpp_tensorRT/.vscode%20-%20ssh%20remote%20host%20-%20gdb%20gdbserver%20debugging.zip)　[↗](../assets/CLion%20remote%20debug%20configuration)
