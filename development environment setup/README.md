@@ -10,4 +10,4 @@ Development environment setup
 
 - [Resource monitor of Nano](./resource%20monitor%20of%20Nano.md)
 
-- [Remote debugging](./remote%20debugging/remote%20debugging.md)
+- [Remote debugging](./remote%20debugging.md)
