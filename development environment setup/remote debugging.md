@@ -107,4 +107,20 @@ Three ways ：
    - [GDB Remote Debug](https://www.jetbrains.com/help/clion/2021.1/remote-debug.html)
 
 
+</br>
+
+|                                                                                              |                                                                                                                  | Symbol files                                | Environment variables                                                                                     | Actual remote debugging |
+| -------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------- | --------------------------------------------------------------------------------------------------------- | --- |
+| [Full remote mode](https://www.jetbrains.com/help/clion/2021.1/remote-projects-support.html) | ≈ Remote Desktop. &nbsp;All actions are triggered in the local CLion project and are actually executed remotely. | Unnecessary.</br>Build `debug` in the CLion | Unnecessary. </br>Execute in the remote environment directly.                                             | OK|
+| [Remote GDB Server](https://www.jetbrains.com/help/clion/2021.1/remote-gdb-server.html)      | Build locally, Auto upload output binary to the remote, Auto execute gdbserver in the remote.                    | Unnecessary.</br>Build `debug` in the CLion | Necessary. </br>Need to be set in the "Environment variables" filed of "Run/Debug Configuration" in CLion | NG  │ Can't enter breakpoint |
+| [GDB Remote Debug](https://www.jetbrains.com/help/clion/2021.1/remote-debug.html)            | Place the pre-built **non-stripped** binary to the remote manually, execute gdbserver in the remote manually.    | Necessary.</br> gcc `-g` in the remote      | Unnecessary. </br>Execute in the remote environment directly.                                             | OK|
+
+
+p.s. </br>
+	&ensp;local : &nbsp;CLion 2021.1 @ Windows 10 </br>
+	&ensp;remote : &nbsp;Jetson Nano Jetpack 4.5.1 @ Ubuntu 18.04
+
+
+
+
 &emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp; <u>e.g. CLion configuration</u>　[↗](https://github.com/tingkts/JetsonNano-mtcnn_facenet_cpp_tensorRT/blob/master-demo-on-nano-jp4.5/mtcnn_facenet_cpp_tensorRT/.idea%20.run%20-%20CLion%20remote%20debugging.zip)　[↗](../assets/CLion%20remote%20debug%20configuration)
