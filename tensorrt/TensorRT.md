@@ -43,7 +43,7 @@
 
 - TRT build Engine
 
-<img src="./assets/TensorRT%20build%20engine.drawio.png" width="80%" height="80%">
+<img src="https://github.com/tingkts/Nvidia-Jetson-Nano/blob/main/assets/TensorRT%20build%20engine.drawio.png" width="40%" height="40%">
 
 </br>
 
