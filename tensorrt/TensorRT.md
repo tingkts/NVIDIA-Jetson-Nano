@@ -41,6 +41,12 @@
 
 </br>
 
+- TRT build Engine
+
+<img src="./assets/TensorRT%20build%20engine.drawio.png" width="80%" height="80%">
+
+</br>
+
 - TRT Engine Serialization
 
 ```
