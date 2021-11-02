@@ -110,3 +110,14 @@
 
 👉&ensp;[NGC TensorRT Container](https://ngc.nvidia.com/catalog/containers/nvidia:tensorrt)</br></br>
 👉&ensp;[TensorRT Windows 10 Installattion](./TensorRT%20Windows10%20installation.md)
+
+
+</br>
+
+---
+
+</br>
+
+*< Awesome Demos >*
+
+🌟&ensp;[jkjung-avt/tensorrt_demos: TensorRT MODNet, YOLOv4, YOLOv3, SSD, MTCNN, and GoogLeNet](https://github.com/jkjung-avt/tensorrt_demos)
