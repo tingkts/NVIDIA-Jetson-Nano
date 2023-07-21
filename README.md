@@ -25,3 +25,15 @@ Topics :
 Additional :
 
 - [Pose Estimation](./Pose%20Estimation.md)
+
+
+
+</br>
+
+---
+
+</br>
+
+Quick Link :
+
+- [Jason series](https://www.nvidia.com/zh-tw/autonomous-machines/embedded-systems/)
